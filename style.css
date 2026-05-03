@@ -48,6 +48,7 @@ h1 {
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
+  font-family: "Shizuru", sans-serif; 
 }
 
 nav {
@@ -143,10 +144,11 @@ footer {
 }
 
 h2 {
-    display: flex;
+  display: flex;
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
+  font-family: "Shizuru", sans-serif; 
 }
 
 .schedule-container {
