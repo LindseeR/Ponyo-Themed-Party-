@@ -37,7 +37,7 @@ body {
 h1 {
   font-size: 100px;
   animation: float 1.5s ease-in-out infinite; 
-  color: 
+  
 }
 
 nav {
@@ -87,6 +87,49 @@ footer {
   align-items: center; 
   margin: 2rem; 
   font-size: 25px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  padding: 1.5rem; 
+}
+
+.outfit-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: .5rem; 
+   padding: 1rem;
+}
+
+.outfit-img img{
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+}
+
+.forward-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: .5rem; 
+  padding: 1rem; 
+}
+
+.forward-img img{
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
+}
+
+h2 {
+    display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
 }
 
 .floating-text {
