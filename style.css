@@ -10,9 +10,15 @@ html {
   font-size: 30px;
 }
 
+body {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
 .img-container {
   margin: 1.5rem; 
-  height: 600px; 
+  height: 100%; 
   position: relative;
   background-image: url("https://i.pinimg.com/1200x/48/d6/63/48d6638df9e713f6ffd9173f493b894b.jpg");
   background-repeat: no-repeat;
@@ -69,8 +75,7 @@ ul {
 
 footer {
   background-color: #5eb7b7; 
-  height: auto ;
-  position: fixed; 
+  height: auto;
   width: 100%; 
   bottom: 0;
 }
