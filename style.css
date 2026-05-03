@@ -15,10 +15,11 @@ body {
   flex-direction: column; 
 }
 
-P {  
+Main P {  
   border-radius: 15px; 
   border: .15rem solid #5eb7b7; 
   padding: 1.5rem; 
+  margin: 2rem; 
   }
 
 .img-container {
@@ -42,7 +43,10 @@ P {
 h1 {
   font-size: 100px;
   animation: float 1.5s ease-in-out infinite; 
-  
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
 }
 
 nav {
