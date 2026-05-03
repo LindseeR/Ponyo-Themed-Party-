@@ -65,6 +65,11 @@ nav a {
   text-decoration: none;
 }
 
+a {
+  color: #112A46;
+  text-decoration: none;
+} 
+
 .intro {
   display: flex;
   flex-direction: column; 
