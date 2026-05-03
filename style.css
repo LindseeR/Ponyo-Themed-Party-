@@ -48,7 +48,7 @@ h1 {
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
-  font-family: "Shizuru", sans-serif; 
+  font-family: "Shizuru", serif; 
 }
 
 nav {
@@ -148,7 +148,7 @@ h2 {
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
-  font-family: "Shizuru", sans-serif; 
+  font-family: "Shizuru", serif; 
 }
 
 .schedule-container {
