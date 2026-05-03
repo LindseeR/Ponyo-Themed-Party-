@@ -3,16 +3,21 @@
   padding: 0;
 }
 
-html {
+html, body {
   background-color: #ACE6E0;
   color: #112A46; 
   line-height: 1.4;
   font-size: 25px;
+  height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column; 
+}
 .img-container {
   margin: 1.5rem; 
-  height: 600px; 
+  height: 600px;  
   position: relative;
   background-image: url("https://i.pinimg.com/1200x/48/d6/63/48d6638df9e713f6ffd9173f493b894b.jpg")
 
@@ -66,11 +71,8 @@ ul {
 }
 
 footer {
-  background-color: #5eb7b7; 
-  height: auto ;
-  position: fixed; 
+  background-color: #5eb7b7;  
   width: 100%; 
-  bottom: 0;
 }
 
 .footer-text {
