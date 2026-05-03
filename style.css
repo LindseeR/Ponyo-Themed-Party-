@@ -116,7 +116,8 @@ footer {
   justify-content: center;
   flex-wrap: wrap; 
   gap: .5rem; 
-   padding: 1rem;
+  padding: 1rem;
+  animation: pulse 2s infinite ease-in-out; 
 }
 
 .outfit-img img{
@@ -131,6 +132,7 @@ footer {
   flex-wrap: wrap; 
   gap: .5rem; 
   padding: 1rem; 
+  animation: pulse 2s infinite ease-in-out; 
 }
 
 .forward-img img{
@@ -169,5 +171,18 @@ h2 {
   }
   100%{
     transform: translateY(0px)
+  }
+}
+
+
+@keyframes pulse {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
   }
 }
