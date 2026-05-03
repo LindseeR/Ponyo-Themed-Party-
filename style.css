@@ -28,7 +28,7 @@ html {
 
 h1 {
   font-size: 50px;
-  animation: float 1.5s cubic-bezier(0.42, 0, 0.62, 0.99) infinte; 
+  animation: float 1.5s ease-in-out infinite; 
 }
 
 nav {
@@ -87,7 +87,7 @@ footer {
     transform: translateY(0px);
   }
   50%{
-    translate: translateY(-10px);
+    transform: translateY(-10px);
   }
   100%{
     transform: translateY(0px)
